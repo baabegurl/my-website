@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر سمارت هوم</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+            .product img {
+                width: 40%;
+                height: 100px;
+                object-fit: cover;
+            }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Smart Home Supplies</h1>
+        <p>اكتشف أحدث منتجات المنزل الذكي لجعل حياتك أسهل!</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="smartlamp.jpeg" alt="Smart Lamp">
+            <h3> Smart Lamp LED</h3>
+            <p>يتحكم في الإضاءة عبر التطبيق.</p>
+           <p> السعر: 750 جنيه</p>
+            <button onclick="alert('تم إضافة المنتج إلى السلة!')">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="smart camera.jpeg" alt="Smart security Camera">
+            <h3>Smart security Camera</h3>
+            <p>مراقبة عالية الدقة مع تنبيهات فورية.</p>
+             <p> السعر:2500 جنيه</p>
+            <button onclick="alert('تم إضافة المنتج إلى السلة!')">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="smart plug.jpeg" alt="Smart Plug">
+            <h3>Smart Plug</h3>
+            <p> جهاز يحوّل أي جهاز كهربائي عادي إلى جهاز ذكي. </p>
+             <p> السعر: 750 جنيه</p>
+            <button onclick="alert('تم إضافة المنتج إلى السلة!')">أضف إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="smart lock.jpeg" alt="Smart Lock">
+            <h3>Smart Lock</h3>
+            <p>فتح وإغلاق عبر الهاتف.</p>
+            <p> السعر:5200 جنيه</p>
+            <button onclick="alert('تم إضافة المنتج إلى السلة!')">أضف إلى السلة</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 متجر سمارت هوم جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
